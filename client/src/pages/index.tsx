@@ -4,7 +4,9 @@ type Props = {
   title: string
 }
 
-export default function    Home({ title = 'WON Games' }: Props) {
+const foo = 'usahdusahdusa'
+
+export default function   Home({ title = 'WON Games' }: Props) {
   return (
     <>
       <Head>
