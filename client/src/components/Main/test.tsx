@@ -4,8 +4,10 @@ import Main from '.'
 
 describe('<Main />', () => {
   it('should render the headings', () => {
-    render(<Main />)
+    const { container } = render(<Main />)
 
     expect(screen.getByRole('heading', { name: /boilerplate project/i }))
+
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
