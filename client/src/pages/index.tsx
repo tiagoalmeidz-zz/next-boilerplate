@@ -4,6 +4,8 @@ type Props = {
   title: string
 }
 
+const test = 'test'
+
 export default function Home({ title = 'WON Games' }: Props) {
   return (
     <>
