@@ -6,7 +6,7 @@ type Props = {
 
 const foo = 'usahdusahdusa'
 
-export default function   Home({ title = 'WON Games' }: Props) {
+export default function Home({ title = 'WON Games' }: Props) {
   return (
     <>
       <Head>
