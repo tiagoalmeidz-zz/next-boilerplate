@@ -9,6 +9,8 @@ function App({ Component, pageProps }: AppProps) {
         <title>Boilerplate - Project</title>
         <link rel="shortcut icon" href="/img/webpack-512.png" />
         <link rel="apple-touch-icon" href="/img/webpack-512.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" />
         <meta
           name="description"
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
